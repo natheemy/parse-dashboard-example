@@ -12,10 +12,10 @@ var dashboard = new ParseDashboard({
 
   apps: [
     {
-      appId: process.env.APP_ID || 'myAppId',
-      masterKey: process.env.MASTER_KEY || 'myMasterKey',
-      serverURL: process.env.SERVER_URL || herokuParseServer || localParseServer,
-      appName: process.env.APP_NAME || 'MyApp',
+      appId: process.env.APP_ID || '123456',
+      masterKey: process.env.MASTER_KEY || '12345',
+      serverURL: process.env.SERVER_URL || 'https://bingochat.herokuapp.com/parse' || localParseServer,
+      appName: process.env.APP_NAME || 'Bingo',
     },
   ],
 });
