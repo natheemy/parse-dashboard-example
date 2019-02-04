@@ -7,19 +7,19 @@
   "env": {
     "APP_ID": {
       "description": "A unique identifier for your app.",
-      "value": "myAppId"
+      "value": "123456"
     },
     "MASTER_KEY": {
       "description": "A key that overrides all permissions. Keep this secret.",
-      "value": "myMasterKey"
+      "value": "123456"
     },
     "SERVER_URL": {
       "description": "URL to connect to your Heroku instance (update with your app's name + PARSE_MOUNT)",
-      "value": "http://yourappname.herokuapp.com/parse"
+      "value": "https://bingochat.herokuapp.com/parse"
     },
     "APP_NAME": {
       "description": "The name of the app that will show up in the dashboard.",
-      "value": "myAppName"
+      "value": "Bingo"
     }
   },
   "image": "heroku/nodejs"
