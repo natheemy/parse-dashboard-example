@@ -1,0 +1,21 @@
+{
+    "apps": [
+      {
+        "serverURL": "http://192.168.130.106:1337/parse",
+        "appId": "app",
+        "masterKey": "master",
+        "appName": "My Parse.Com App",
+        "clientKey":"12345"
+      }
+    ],
+  "users": [
+      {
+        "user":"user1",
+        "pass":"pass"
+      },
+      {
+        "user":"user2",
+        "pass":"pass"
+      }
+    ]
+  }
